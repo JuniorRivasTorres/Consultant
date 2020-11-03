@@ -30,7 +30,7 @@ const Footer = () => {
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                     <FooterLinkItems>
-                            <FooterLinkTitle>Vieos</FooterLinkTitle>
+                            <FooterLinkTitle>Videos</FooterLinkTitle>
                                 <FooterLink to='/'>Submit Video</FooterLink>
                                 <FooterLink to='/'>Ambassador</FooterLink>
                                 <FooterLink to='/'>Agency</FooterLink>
@@ -49,9 +49,9 @@ const Footer = () => {
                 <SocialMedia> 
                    <SocialMediaWrap>
                        <SocialLogo to ='/'onClick={toggleHome}>
-                           dolla
+                           FRESSA
                        </SocialLogo>   
-                       <WebsiteRights>dolla @2020{new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                       <WebsiteRights>FRESSA {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                        <SocialIcons>
                            <SocialIconLink href='/' target="_blank"
                            aria-label= "Facebook">

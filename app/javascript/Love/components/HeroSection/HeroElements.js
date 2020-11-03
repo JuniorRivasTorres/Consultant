@@ -5,6 +5,7 @@ export const HeroContainer = styled.div`
     background: #0c0c0c;
     display: flex;
     justify-content: center;
+    
     align-items: center;
     padding: 0 30px;
     height: 800px;
@@ -54,6 +55,7 @@ export const HeroH1 = styled.h1`
     color: #fff;
     font-size: 48px;
     text-align: center;
+    font-family: Ultra;
     
     @media screen and (max-width: 768px) {
         font-size: 40px;
@@ -69,6 +71,7 @@ export const HeroP = styled.p`
     font-size: 24px;
     text-align: center;
     max-width: 600px;
+    font-family: Roboto Slab;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;

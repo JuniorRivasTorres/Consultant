@@ -58,14 +58,16 @@ export const InfoRow = styled.div`
         letter-spacing: 1.4px;
         text-transform: uppercase;
         margin-bottom: 16px;
+        font-family: Roboto Slab;
     `;
 
     export const Heading = styled.h1`
         margin-bottom: 24px;
-        font-size: 48px;
+        font-size: 38px;
         line-height: 1.1;
         font-weight: 600;
-        color: ${({ lightText }) => (lightText ? 'red' : '#010606')}
+        font-family: Ultra light;
+        color: ${({ lightText }) => (lightText ? '#fff' : '#010606')}
         ;
     
     @media screen and (max-width: 480px) {
