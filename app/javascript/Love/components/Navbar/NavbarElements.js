@@ -29,14 +29,21 @@ export const NavbarContainer = styled.div`
     `;    
 export const NavLogo = styled(LinkR)`
     color: #fff;
+    font-family: Fondamento, cursive;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+        color: #fff;
+        transform: scale(1.1);
+        transition: transform .3s;
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -72,18 +79,28 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #fff;
+
+    color: white;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    font-family: Roboto Slab;
+    font-size: 20px;
 
     &.active {
-        border-bottom: 3px solid #01bf71;
+       color: white;
+        border-bottom: 6px solid #ac1010;
+        transform: scaleX(1);
+        transition: transform 950ms ease-in-out;
     }
-    `;
+    &:hover {
+        color: white;
+        transform: scale(1.1);
+        transition: transform .3s;
+    }`;
 
     export const NavBtn = styled.nav`
         display: flex;
@@ -94,12 +111,13 @@ export const NavLinks = styled(LinkS)`
         }
         `
     export const NavBtnLink = styled(LinkR)`
-        border-radius: 50px;
-        background: #01bf71;
+        border-radius: 20px;
+        background: #ac1010;
         white-space: nowrap;
-        padding: 10px 22px;
-        color: #010606;
-        font-size: 16px;
+        padding: 8px 22px;
+        color: #fff;
+        font-family: Roboto Slab;
+        font-size: 18px;
         outline: none;
         border: none;
         cursor: pointer;

@@ -24,7 +24,7 @@ const SignIn = () => {
                     mp4' />
             </SignInBg>
             <FormWrap>
-                <Icon to="/">dolla</Icon>
+                <Icon to="/">FRESSA</Icon>
                 <FormContent>
                     <Form action="#">
                         <FormH1>Sign in to your account</FormH1>

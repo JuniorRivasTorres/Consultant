@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Video from '../../videos/nycstreet.mp4';
+import Video from '../../videos/rue.mp4';
 import {Button} from '../ButtonElements'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowFoward, ArrowRight} from './HeroElements';
 
